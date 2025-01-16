@@ -13,7 +13,8 @@ public class ArrayShuffle {
 
     public static <T> T[] shuffle(T[] array) {
         if (array == null) throw new IllegalArgumentException("Input can not be null");
-
+        System.out.println("HERE");
+        System.out.println("Super change");
         T[] clone = array.clone();
         for (int i = 0; i < clone.length; i++) {
             int r = generateRandomInteger(i, clone.length);
