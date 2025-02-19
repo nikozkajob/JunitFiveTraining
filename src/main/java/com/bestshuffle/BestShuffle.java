@@ -24,7 +24,7 @@ import org.apache.commons.lang3.tuple.Triple;
 import java.util.Arrays;
 
 public class BestShuffle {
-
+//todo comment
     public static ShuffleScore getShuffleScore(String s) {
 
         if(s == null) {
